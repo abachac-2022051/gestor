@@ -1,0 +1,442 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "GestorDeEmpresas2022051",
+    "dateExported": "2024-03-04T04:54:46.816Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "21b8e466-8373-4756-b403-75ffa17dff32",
+            "name": "Usuarios",
+            "containerId": "",
+            "created": "2024-03-03T18:51:18.303Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "f0a884cb-16fe-4667-ac9e-5321190f2b30",
+            "name": "Categoria",
+            "containerId": "",
+            "created": "2024-03-03T19:32:25.247Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "5d014b28-5090-4db5-a3ed-1843fa642341",
+            "name": "Empresas",
+            "containerId": "",
+            "created": "2024-03-03T19:56:13.823Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "bd000b0c-5b13-48d9-977d-38f09482f887",
+            "colId": "06e338ea-a713-47ad-a897-d68e13b5e2da",
+            "containerId": "21b8e466-8373-4756-b403-75ffa17dff32",
+            "name": "Registrar",
+            "url": "localhost:3200/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-03T18:51:32.847Z",
+            "modified": "2024-03-03T18:57:57.453Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Angel David"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Bachac Peralta"
+                    },
+                    {
+                        "name": "username",
+                        "value": "abachac"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "abachac-2022051@kinal.edu.gt"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "57685387"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "02cbade2-cc2e-4599-9b7d-ced2df76e462",
+            "colId": "06e338ea-a713-47ad-a897-d68e13b5e2da",
+            "containerId": "21b8e466-8373-4756-b403-75ffa17dff32",
+            "name": "Actualizar",
+            "url": "localhost:3200/update/65e4c835ad3d05172ff16b07",
+            "method": "PUT",
+            "sortNum": 15000,
+            "created": "2024-03-03T19:05:08.438Z",
+            "modified": "2024-03-03T19:07:32.118Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0YzgzNWFkM2QwNTE3MmZmMTZiMDciLCJ1c2VybmFtZSI6ImFiYWNoYWMiLCJuYW1lIjoiQW5nZWwgRGF2aWQiLCJpYXQiOjE3MDk0OTI0NTUsImV4cCI6MTcwOTUwMzI1NX0.3mGaFpzhymEvVndnq3FnJ6acNq9FD6Nvrfvp0IK-x-g"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Angel David"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Bachac Peralta"
+                    },
+                    {
+                        "name": "username",
+                        "value": "abachac"
+                    },
+                    {
+                        "name": "password",
+                        "value": "87654321"
+                    },
+                    {
+                        "name": "email",
+                        "value": "abachac-2022051@kinal.edu.gt"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "57685387"
+                    },
+                    {
+                        "name": "oldpassword",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "e9514476-e8c5-4542-9f17-c13ab44d7e24",
+            "colId": "06e338ea-a713-47ad-a897-d68e13b5e2da",
+            "containerId": "21b8e466-8373-4756-b403-75ffa17dff32",
+            "name": "Login",
+            "url": "localhost:3200/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-03T18:59:15.423Z",
+            "modified": "2024-03-03T19:00:55.894Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "abachac-2022051@kinal.edu.gt",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "username",
+                        "value": "abachac"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d526f8e5-97b5-48aa-8bec-12b9f733b386",
+            "colId": "06e338ea-a713-47ad-a897-d68e13b5e2da",
+            "containerId": "21b8e466-8373-4756-b403-75ffa17dff32",
+            "name": "Eliminar",
+            "url": "localhost:3200/delete/65e4c835ad3d05172ff16b07",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-03-03T19:11:01.502Z",
+            "modified": "2024-03-03T19:11:25.217Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0YzgzNWFkM2QwNTE3MmZmMTZiMDciLCJ1c2VybmFtZSI6ImFiYWNoYWMiLCJuYW1lIjoiQW5nZWwgRGF2aWQiLCJpYXQiOjE3MDk0OTI0NTUsImV4cCI6MTcwOTUwMzI1NX0.3mGaFpzhymEvVndnq3FnJ6acNq9FD6Nvrfvp0IK-x-g"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "393bb626-9605-4cce-8d47-1b7eac7fc517",
+            "colId": "06e338ea-a713-47ad-a897-d68e13b5e2da",
+            "containerId": "f0a884cb-16fe-4667-ac9e-5321190f2b30",
+            "name": "Crear categoria",
+            "url": "localhost:3200/category/agregarCategorias",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-03-03T19:32:42.828Z",
+            "modified": "2024-03-04T03:49:12.936Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZDFjODUxNTkyZWZlN2Q5MmM3MjciLCJ1c2VybmFtZSI6ImFiYWNoYWMiLCJuYW1lIjoiQW5nZWwgRGF2aWQiLCJpYXQiOjE3MDk1MjQwNTQsImV4cCI6MTcwOTUzNDg1NH0.tumNUFaVP9ERpbxUeyUvvdPGH4Ki4fMmbmAtjy3xySs"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "categoria",
+                        "value": "Entretenimiento"
+                    },
+                    {
+                        "name": "descripcion",
+                        "value": "Empresas que se encargan del entretenimiento"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "b65cfcf7-8421-4e47-8045-ea6fc37d6d9c",
+            "colId": "06e338ea-a713-47ad-a897-d68e13b5e2da",
+            "containerId": "f0a884cb-16fe-4667-ac9e-5321190f2b30",
+            "name": "Actualizar Categoria",
+            "url": "localhost:3200/category/actualizarCategoria/65e4d356f93c6c2d87c18187",
+            "method": "PUT",
+            "sortNum": 45000,
+            "created": "2024-03-03T19:51:34.109Z",
+            "modified": "2024-03-03T19:54:39.040Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZDFjODUxNTkyZWZlN2Q5MmM3MjciLCJ1c2VybmFtZSI6ImFiYWNoYWMiLCJuYW1lIjoiQW5nZWwgRGF2aWQiLCJpYXQiOjE3MDk0OTQ3MzgsImV4cCI6MTcwOTUwNTUzOH0.l4eWDi8n5S3kvED9rGi2_7-I32aPLbmeG7bODOL9Fl0"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "categoria",
+                        "value": "Electrodomesticos"
+                    },
+                    {
+                        "name": "descripcion",
+                        "value": "Empresas que se encargan del desarollo de electrodomesticos"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "7d6fbd35-e557-4f47-8a17-5ea09c1fa29a",
+            "colId": "06e338ea-a713-47ad-a897-d68e13b5e2da",
+            "containerId": "f0a884cb-16fe-4667-ac9e-5321190f2b30",
+            "name": "Listar empresas",
+            "url": "localhost:3200/category/listarCategoria",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-03-03T19:48:17.307Z",
+            "modified": "2024-03-03T19:50:11.752Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZDFjODUxNTkyZWZlN2Q5MmM3MjciLCJ1c2VybmFtZSI6ImFiYWNoYWMiLCJuYW1lIjoiQW5nZWwgRGF2aWQiLCJpYXQiOjE3MDk0OTQ3MzgsImV4cCI6MTcwOTUwNTUzOH0.l4eWDi8n5S3kvED9rGi2_7-I32aPLbmeG7bODOL9Fl0"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9dbc1198-fae0-4ee8-9f29-f5344a0ccb6f",
+            "colId": "06e338ea-a713-47ad-a897-d68e13b5e2da",
+            "containerId": "5d014b28-5090-4db5-a3ed-1843fa642341",
+            "name": "Agregar empresa",
+            "url": "localhost:3200/empresa/agregarEmpresa",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-03-04T00:12:02.934Z",
+            "modified": "2024-03-04T04:48:56.230Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZDFjODUxNTkyZWZlN2Q5MmM3MjciLCJ1c2VybmFtZSI6ImFiYWNoYWMiLCJuYW1lIjoiQW5nZWwgRGF2aWQiLCJpYXQiOjE3MDk1MjQwNTQsImV4cCI6MTcwOTUzNDg1NH0.tumNUFaVP9ERpbxUeyUvvdPGH4Ki4fMmbmAtjy3xySs"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombre",
+                        "value": "Netflix"
+                    },
+                    {
+                        "name": "impacto",
+                        "value": "BAJO"
+                    },
+                    {
+                        "name": "trayectoria",
+                        "value": "1"
+                    },
+                    {
+                        "name": "categoria",
+                        "value": "65e552ac9d734037232803f6"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "9816bf51-610b-4aa3-bc0e-44779e547281",
+            "colId": "06e338ea-a713-47ad-a897-d68e13b5e2da",
+            "containerId": "5d014b28-5090-4db5-a3ed-1843fa642341",
+            "name": "Actualizar Empresa",
+            "url": "localhost:3200/empresa/actualizarEmpresa/65e514e610435bae29a05a1a",
+            "method": "PUT",
+            "sortNum": 65000,
+            "created": "2024-03-04T00:36:42.186Z",
+            "modified": "2024-03-04T00:39:45.398Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZDFjODUxNTkyZWZlN2Q5MmM3MjciLCJ1c2VybmFtZSI6ImFiYWNoYWMiLCJuYW1lIjoiQW5nZWwgRGF2aWQiLCJpYXQiOjE3MDk1MTExNDcsImV4cCI6MTcwOTUyMTk0N30.gp8P9ewEYNTWBq97YgSYWv_d4YSZfBuTgF5WdJltv2o"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombre",
+                        "value": "Samsung"
+                    },
+                    {
+                        "name": "impacto",
+                        "value": "MEDIO"
+                    },
+                    {
+                        "name": "trayectoria",
+                        "value": "3"
+                    },
+                    {
+                        "name": "categoria",
+                        "value": "65e512ff6788ac52fcfa19bf"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "899d475f-9d23-4442-b47d-febf3ad50fa0",
+            "colId": "06e338ea-a713-47ad-a897-d68e13b5e2da",
+            "containerId": "5d014b28-5090-4db5-a3ed-1843fa642341",
+            "name": "listar trayectoria",
+            "url": "localhost:3200/empresa/listarTrayectoria",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-03-04T00:22:46.663Z",
+            "modified": "2024-03-04T04:53:25.804Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZDFjODUxNTkyZWZlN2Q5MmM3MjciLCJ1c2VybmFtZSI6ImFiYWNoYWMiLCJuYW1lIjoiQW5nZWwgRGF2aWQiLCJpYXQiOjE3MDk1MjQwNTQsImV4cCI6MTcwOTUzNDg1NH0.tumNUFaVP9ERpbxUeyUvvdPGH4Ki4fMmbmAtjy3xySs"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4bb9b1f1-52ef-4b0c-8a00-509be6d50565",
+            "colId": "06e338ea-a713-47ad-a897-d68e13b5e2da",
+            "containerId": "5d014b28-5090-4db5-a3ed-1843fa642341",
+            "name": "Listar A-Z",
+            "url": "localhost:3200/empresa/ListarA_Z",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-03-04T00:26:04.814Z",
+            "modified": "2024-03-04T00:26:44.306Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZDFjODUxNTkyZWZlN2Q5MmM3MjciLCJ1c2VybmFtZSI6ImFiYWNoYWMiLCJuYW1lIjoiQW5nZWwgRGF2aWQiLCJpYXQiOjE3MDk1MTExNDcsImV4cCI6MTcwOTUyMTk0N30.gp8P9ewEYNTWBq97YgSYWv_d4YSZfBuTgF5WdJltv2o"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "24b4194e-af7d-40e2-852f-4726e4a692a9",
+            "colId": "06e338ea-a713-47ad-a897-d68e13b5e2da",
+            "containerId": "5d014b28-5090-4db5-a3ed-1843fa642341",
+            "name": "Listar Z-A",
+            "url": "localhost:3200/empresa/listarZ_A",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-03-04T00:29:00.055Z",
+            "modified": "2024-03-04T00:31:51.392Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZDFjODUxNTkyZWZlN2Q5MmM3MjciLCJ1c2VybmFtZSI6ImFiYWNoYWMiLCJuYW1lIjoiQW5nZWwgRGF2aWQiLCJpYXQiOjE3MDk1MTExNDcsImV4cCI6MTcwOTUyMTk0N30.gp8P9ewEYNTWBq97YgSYWv_d4YSZfBuTgF5WdJltv2o"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bbacd525-ce75-4b33-8d01-6b10163f0fba",
+            "colId": "06e338ea-a713-47ad-a897-d68e13b5e2da",
+            "containerId": "5d014b28-5090-4db5-a3ed-1843fa642341",
+            "name": "Excel",
+            "url": "localhost:3200/empresa/AgregarExcel",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-04T00:34:15.498Z",
+            "modified": "2024-03-04T00:34:50.238Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZDFjODUxNTkyZWZlN2Q5MmM3MjciLCJ1c2VybmFtZSI6ImFiYWNoYWMiLCJuYW1lIjoiQW5nZWwgRGF2aWQiLCJpYXQiOjE3MDk1MTExNDcsImV4cCI6MTcwOTUyMTk0N30.gp8P9ewEYNTWBq97YgSYWv_d4YSZfBuTgF5WdJltv2o"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1db7a3a3-4811-4194-a44f-6a08e61cb69e",
+            "colId": "06e338ea-a713-47ad-a897-d68e13b5e2da",
+            "containerId": "f0a884cb-16fe-4667-ac9e-5321190f2b30",
+            "name": "Eliminar Categoria",
+            "url": "localhost:3200/category/eliminarCategoria/65e552ac9d734037232803f6",
+            "method": "DELETE",
+            "sortNum": 140000,
+            "created": "2024-03-04T01:02:22.705Z",
+            "modified": "2024-03-04T04:49:00.746Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0ZDFjODUxNTkyZWZlN2Q5MmM3MjciLCJ1c2VybmFtZSI6ImFiYWNoYWMiLCJuYW1lIjoiQW5nZWwgRGF2aWQiLCJpYXQiOjE3MDk1MjQwNTQsImV4cCI6MTcwOTUzNDg1NH0.tumNUFaVP9ERpbxUeyUvvdPGH4Ki4fMmbmAtjy3xySs"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
